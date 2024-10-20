@@ -64,15 +64,23 @@ const cards = [
     createCard(2, 0, "魔比斯", "持續：本局對戰中，你每丟棄1張牌，就+2戰鬥力。", ["丟棄"], "./img/Morbius.webp"),
     createCard(2, 0, "聖娜", "每回合結束後，若你放置過剛好2張卡牌，則此牌+3戰鬥力。", [""], "./img/Thena.webp"),
     createCard(2, 1, "巴奇．巴恩斯", "此卡牌被摧毀後，會替換成酷寒戰士。", [""], "./img/BuckyBarnes.webp"),
-
-
-
+    createCard(2, 1, "蜘蛛夫人", "持續：你每回合可將此處我方任1張其他卡牌移走。", [""], "./img/MadameWeb.webp"),
+    createCard(2, 1, "魔仙子", "揭示：將起始牌組中所有卡牌（不含目前手牌）的基礎能量花費隨機交換。", [""], "./img/Pixie.webp"),
     createCard(2, 2, "卡耐基", "揭示：摧毀我方在此牌揭示區域的其他卡牌，每摧毀1張，就+2戰鬥力。", [""], "./img/Carnage.webp"),
+    createCard(2, 2, "夜魔俠", "在第5回合，你可以在出牌之前，先看見對方的操作。", [""], "./img/Daredevil.webp"),
+    createCard(2, 2, "炫音", "持續：我方每填滿一個區域，此卡牌 + 2戰鬥力。", [""], "./img/Dazzler.webp"),
+    createCard(2, 2, "鍛造者", "揭示：你打出的下張卡牌 + 2戰鬥力。", [""], "./img/Forge.webp"),
+    createCard(2, 2, "呆頭鵝", "持續：雙方均不可將能量花費為4、5、6的卡牌放置在此牌所在區域。", [""], "./img/Goose.webp"),
+    createCard(2, 2, "生化女", "揭示：所有其他卡牌 - 1戰鬥力。", [""], "./img/Hazmat.webp"),
     createCard(2, 2, "洛基", "揭示：將你的牌組替換成對方起始牌組，且能量花費-1。", [""], "./img/Loki.webp"),
     createCard(2, 2, "主體模組", "揭示：將2張哨兵機器人加入對方手牌。", [""], "./img/MasterMold.webp"),
-    createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
 
-    // createCard(2,1, "", "", [""], "./img/.webp"),
+
+
+
+    // createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
+
+    // createCard(2,2, "", "", [""], "./img/.webp"),
 ];
 
 const container = document.getElementById('card-container');
