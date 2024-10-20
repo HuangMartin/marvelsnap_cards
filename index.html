@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
+    <meta name="description" property="description" content="漫威瞬戰超能 卡片搜尋器">
+    <meta name="og:title" property="og:title" content="漫威瞬戰超能 卡片搜尋器">
+    <meta name="og:image" property="og:image" content="favicon.png">
+    <title>漫威瞬戰超能 卡片搜尋器</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <h1>顯示指定消費
+        <i class="fas fa-trash-alt" style="cursor: pointer; margin-left: 10px; font-size: 0.8em; color: gray;"
+            onclick="clearCostFilters()"></i>
+    </h1>
+    <div class="filter-container">
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="0">
+            <input type="checkbox" class="filter" id="cost-filter-0" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-0">0</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="1">
+            <input type="checkbox" class="filter" id="cost-filter-1" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-1">1</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="2">
+            <input type="checkbox" class="filter" id="cost-filter-2" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-2">2</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="3">
+            <input type="checkbox" class="filter" id="cost-filter-3" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-3">3</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="4">
+            <input type="checkbox" class="filter" id="cost-filter-4" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-4">4</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="5">
+            <input type="checkbox" class="filter" id="cost-filter-5" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-5">5</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="6">
+            <input type="checkbox" class="filter" id="cost-filter-6" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-6">6</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="6+">
+            <input type="checkbox" class="filter" id="cost-filter-6+" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-6+">6+</label>
+        </div>
+    </div>
+
+    <h1>顯示指定戰鬥力
+        <i class="fas fa-trash-alt" style="cursor: pointer; margin-left: 10px; font-size: 0.8em; color: gray;"
+            onclick="clearPowerFilters()"></i>
+    </h1>
+    <div class="filter-container">
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="0">
+            <input type="checkbox" class="filter" id="power-filter-0" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-0">0-</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="1">
+            <input type="checkbox" class="filter" id="power-filter-1" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-1">1</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="2">
+            <input type="checkbox" class="filter" id="power-filter-2" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-2">2</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="3">
+            <input type="checkbox" class="filter" id="power-filter-3" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-3">3</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="4">
+            <input type="checkbox" class="filter" id="power-filter-4" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-4">4</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="5">
+            <input type="checkbox" class="filter" id="power-filter-5" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-5">5</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="6">
+            <input type="checkbox" class="filter" id="power-filter-6" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-6">6</label>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 btn-shell" title="6+">
+            <input type="checkbox" class="filter" id="power-filter-6+" onclick="applyFilters()">
+            <label class="p-1 w-100 text-center filter-btn" for="filter-6+">6+</label>
+        </div>
+    </div>
+
+    <div id="card-container" style="display: flex; flex-wrap: wrap; gap: 10px;"></div>
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
