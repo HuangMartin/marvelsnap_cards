@@ -54,17 +54,25 @@ const cards = [
     createCard(1, 2, "沙寶", "揭示：我方牌組中每張4費牌的能量花費 - 1。", [""], "./img/Zabu.webp"),
     createCard(1, 3, "刀鋒戰士", "揭示：丟棄我方手牌最右邊的卡牌。", [""], "./img/Blade.webp"),
     createCard(1, 3, "零號", "揭示：移除你打出的下張卡牌的特殊效果。", [""], "./img/Zero.webp"),
+    createCard(1, 3, "九頭蛇鮑伯", "每回合結束後，若該回合有任何玩家SNAP，則此牌移走。", [""], "./img/HydraBob.webp"),
     createCard(1, 5, "殉道者", "在本局對戰結束時，此卡牌移動至會讓你輸掉對戰的區域。（若能輸的話）", [""], "./img/Martyr.webp"),
     createCard(1, 5, "泰坦妮亞", "任1張卡牌被放置於此牌所在區域後，此卡牌即對調敵我位置。", [""], "./img/Titania.webp"),
     createCard(1, 7, "黑舌謀士", "第3回合結束後不可打出此卡牌。持續：不可再放置卡牌至此區域。", [""], "./img/EbonyMaw.webp"),
     // 二費
+    createCard(2, 0, "匕首", "此牌移動後，目標區域每有1張敵方卡牌，此牌就+3戰鬥力。", [""], "./img/Dagger.webp"),
+    createCard(2, 0, "法官", "每回合結束後，我方失去1點最大能量值，且此牌+4戰鬥力。", [""], "./img/Havok.webp"),
     createCard(2, 0, "魔比斯", "持續：本局對戰中，你每丟棄1張牌，就+2戰鬥力。", ["丟棄"], "./img/Morbius.webp"),
+    createCard(2, 0, "聖娜", "每回合結束後，若你放置過剛好2張卡牌，則此牌+3戰鬥力。", [""], "./img/Thena.webp"),
+    createCard(2, 1, "巴奇．巴恩斯", "此卡牌被摧毀後，會替換成酷寒戰士。", [""], "./img/BuckyBarnes.webp"),
+
+
+
     createCard(2, 2, "卡耐基", "揭示：摧毀我方在此牌揭示區域的其他卡牌，每摧毀1張，就+2戰鬥力。", [""], "./img/Carnage.webp"),
     createCard(2, 2, "洛基", "揭示：將你的牌組替換成對方起始牌組，且能量花費-1。", [""], "./img/Loki.webp"),
     createCard(2, 2, "主體模組", "揭示：將2張哨兵機器人加入對方手牌。", [""], "./img/MasterMold.webp"),
     createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
 
-    // createCard(1, 2, "", "", [""], "./img/.webp"),
+    // createCard(2,1, "", "", [""], "./img/.webp"),
 ];
 
 const container = document.getElementById('card-container');
