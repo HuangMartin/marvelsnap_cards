@@ -102,6 +102,17 @@ const cards = [
     createCard(2, 3, "隱形女", "持續：你在此牌所在區域放置的卡牌直到對戰結束才會揭示。", [""], "./img/InvisibleWoman.webp"),
     createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
 
+    createCard(2, 3, "克拉文", "每有1張卡牌移動至此牌所在區域，此牌就+2戰鬥力。", [""], "./img/Kraven.webp"),
+    createCard(2, 3, "分身人", "此牌移動後，將1張複製牌添加到原本區域。", [""], "./img/MultipleMan.webp"),
+    createCard(2, 3, "奧科耶", "揭示：我方牌組中所有卡牌均+1戰鬥力。", [""], "./img/Okoye.webp"),
+    createCard(2, 3, "震盪", "揭示：另外兩個區域交換位置。", [""], "./img/Quake.webp"),
+    createCard(2, 3, "猩紅女巫", "揭示：將此區域替換成一個新區域。", [""], "./img/ScarletWitch.webp"),
+    createCard(2, 3, "嚎叫", "當1張敵方卡牌移動時，從該牌偷取2戰鬥力。（每回合限1次）", [""], "./img/Scream.webp"),
+    createCard(2, 3, "哨兵機器人", "揭示：將另1張哨兵機器人加入我方手牌。", [""], "./img/Sentinel.webp"),
+    createCard(2, 3, "震動人", "「我要震爆你們！」", [""], "./img/Shocker.webp"),
+    createCard(2, 3, "蜂群", "當此卡牌被丟棄時，將2張能量花費為0的複製牌加入我方手牌。", [""], "./img/Swarm.webp"),
+    createCard(2, 3, "美國特工", "持續：此牌所在區域的4、5、6費牌均-4戰鬥力。", [""], "./img/USAgent.webp"),
+
     // createCard(2,3, "", "", [""], "./img/.webp"),
 ];
 
