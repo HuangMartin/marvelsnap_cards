@@ -101,7 +101,6 @@ const cards = [
     createCard(2, 3, "反浩克裝甲", "揭示：此牌揭示區域的1張我方卡牌與此牌合併。", [""], "./img/Hulkbuster.webp"),
     createCard(2, 3, "隱形女", "持續：你在此牌所在區域放置的卡牌直到對戰結束才會揭示。", [""], "./img/InvisibleWoman.webp"),
     createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
-
     createCard(2, 3, "克拉文", "每有1張卡牌移動至此牌所在區域，此牌就+2戰鬥力。", [""], "./img/Kraven.webp"),
     createCard(2, 3, "分身人", "此牌移動後，將1張複製牌添加到原本區域。", [""], "./img/MultipleMan.webp"),
     createCard(2, 3, "奧科耶", "揭示：我方牌組中所有卡牌均+1戰鬥力。", [""], "./img/Okoye.webp"),
@@ -112,6 +111,13 @@ const cards = [
     createCard(2, 3, "震動人", "「我要震爆你們！」", [""], "./img/Shocker.webp"),
     createCard(2, 3, "蜂群", "當此卡牌被丟棄時，將2張能量花費為0的複製牌加入我方手牌。", [""], "./img/Swarm.webp"),
     createCard(2, 3, "美國特工", "持續：此牌所在區域的4、5、6費牌均-4戰鬥力。", [""], "./img/USAgent.webp"),
+    createCard(2, 4, "猛毒特工", "揭示：將我方牌組中卡牌的戰鬥力設定為4。", [""], "./img/AgentVenom.webp"),
+    createCard(2, 4, "斗篷", "揭示：下回合，雙方均可將卡牌移動至此牌揭示區域。", [""], "./img/Cloak.webp"),
+    createCard(2, 4, "科琳．溫", "揭示：丟棄我方手牌中能量花費最低的任1卡牌。", [""], "./img/ColleenWing.webp"),
+    createCard(2, 4, "迷境魔", "當你放置此卡牌時，會同時在其他區域放置「幻覺」，此牌也將偽裝成幻覺，直到對戰結束。", [""], "./img/Mysterio.webp"),
+    createCard(2, 5, "蜥蜴", "持續：若對方在此牌所在區域有4張卡牌，則-4戰鬥力。", [""], "./img/Lizard.webp"),
+    createCard(2, 5, "蛛絲女", "任1張卡牌被放置於此牌所在區域後，此卡牌移動至另一區域。", [""], "./img/Silk.webp"),
+    createCard(2, 6, "馬克西穆斯", "揭示：對方抽2張卡牌。", [""], "./img/Maximus.webp"),
 
     // createCard(2,3, "", "", [""], "./img/.webp"),
 ];
