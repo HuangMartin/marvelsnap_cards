@@ -81,18 +81,28 @@ const cards = [
     createCard(2, 2, "靈蝶", "揭示：下回合，你獲得+1能量。", [""], "./img/Psylocke.webp"),
     createCard(2, 2, "拉芙娜．洛斯蕾爾", "持續：我方戰鬥力小於或等於1的所有卡牌能量花費-1（最低須為1）。", [""], "./img/RavonnaRenslayer.webp"),
     createCard(2, 2, "毒蠍人", "揭示：對方手牌-1戰鬥力。", [""], "./img/Scorpion.webp"),
+    createCard(2, 2, "黑影王", "揭示：將此區域所有卡牌戰鬥力重置為原始戰鬥力。", [""], "./img/ShadowKing.webp"),
+    createCard(2, 2, "星爵", "揭示：若對方本回合在此牌揭示區域放置過卡牌，則此牌+4戰鬥力。", [""], "./img/Starlord.webp"),
+    createCard(2, 2, "收藏者", "每有1張卡牌加入至我方手牌（從牌組中加入除外），此牌就+1戰鬥力。", [""], "./img/TheCollector.webp"),
+    createCard(2, 2, "白寡婦", "揭示：將1張寡婦之吻添加至敵方此區域。", [""], "./img/WhiteWidow.webp"),
+    createCard(2, 2, "金剛狼", "此卡牌被丟棄或摧毀後，在隨機區域重生並+2戰鬥力。", [""], "./img/Wolverine.webp"),
+    createCard(2, 3, "天使", "當1張我方卡牌被摧毀，此卡牌飛出我方手牌或牌組替換該牌。", [""], "./img/Angel.webp"),
+    createCard(2, 3, "安吉拉", "你每在此牌所在區域放置1張卡牌，此牌就+1戰鬥力。", [""], "./img/Angela.webp"),
+    createCard(2, 3, "鎧", "持續：此牌所在區域的卡牌均無法被摧毀。", [""], "./img/Armor.webp"),
+    createCard(2, 3, "莫度男爵", "揭示：對方牌組最頂端的卡牌能量花費變成6，直到第6回合開始。", [""], "./img/BaronMordo.webp"),
+    createCard(2, 3, "黑天鵝", "持續：下回合結束前，我方1費牌的能量花費均為0。", [""], "./img/BlackSwan.webp"),
+    createCard(2, 3, "機堡", "揭示：從對方的牌組抽1張卡牌。", [""], "./img/Cable.webp"),
+    createCard(2, 3, "鋼人", "持續：不能被摧毀、移動，或減少戰鬥力。", [""], "./img/Colossus.webp"),
+    createCard(2, 3, "奇異博士", "揭示：將我方戰鬥力最高的所有卡牌移動到此牌揭示區域。", [""], "./img/DoctorStrange.webp"),
+    createCard(2, 3, "多米諾", "你僅能在第2回合抽到此卡牌。", [""], "./img/Domino.webp"),
+    createCard(2, 3, "獵鷹", "揭示：將我方所有1費牌退回手牌。", [""], "./img/Falcon.webp"),
+    createCard(2, 3, "宗師", "揭示：將此牌揭示區域的另1張我方揭示卡牌移動至中間區域，並再次觸發期特殊效果。", [""], "./img/GrandMaster.webp"),
+    createCard(2, 3, "「鷹眼」凱特．畢夏普", "揭示：將2支箭加入我方手牌。", [""], "./img/KateBishop.webp"),
+    createCard(2, 3, "反浩克裝甲", "揭示：此牌揭示區域的1張我方卡牌與此牌合併。", [""], "./img/Hulkbuster.webp"),
+    createCard(2, 3, "隱形女", "持續：你在此牌所在區域放置的卡牌直到對戰結束才會揭示。", [""], "./img/InvisibleWoman.webp"),
+    createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
 
-
-
-    createCard(2, 2, "黑影王", "揭示：將此區域所有卡牌戰鬥力重置為原始戰鬥力。", [""], "./img/.webp"),
-    createCard(2, 2, "星爵", "揭示：若對方本回合在此牌揭示區域放置過卡牌，則此牌+4戰鬥力。", [""], "./img/.webp"),
-    createCard(2, 2, "收藏者", "每有1張卡牌加入至我方手牌（從牌組中加入除外），此牌就+1戰鬥力。", [""], "./img/.webp"),
-    createCard(2, 2, "白寡婦", "揭示：將1張寡婦之吻添加至敵方此區域。", [""], "./img/.webp"),
-    createCard(2, 2, "金剛狼", "此卡牌被丟棄或摧毀後，在隨機區域重生並+2戰鬥力。", [""], "./img/.webp"),
-
-    // createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
-
-    // createCard(2,2, "", "", [""], "./img/.webp"),
+    // createCard(2,3, "", "", [""], "./img/.webp"),
 ];
 
 const container = document.getElementById('card-container');
