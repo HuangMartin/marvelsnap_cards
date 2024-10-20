@@ -68,15 +68,27 @@ const cards = [
     createCard(2, 1, "魔仙子", "揭示：將起始牌組中所有卡牌（不含目前手牌）的基礎能量花費隨機交換。", [""], "./img/Pixie.webp"),
     createCard(2, 2, "卡耐基", "揭示：摧毀我方在此牌揭示區域的其他卡牌，每摧毀1張，就+2戰鬥力。", [""], "./img/Carnage.webp"),
     createCard(2, 2, "夜魔俠", "在第5回合，你可以在出牌之前，先看見對方的操作。", [""], "./img/Daredevil.webp"),
-    createCard(2, 2, "炫音", "持續：我方每填滿一個區域，此卡牌 + 2戰鬥力。", [""], "./img/Dazzler.webp"),
-    createCard(2, 2, "鍛造者", "揭示：你打出的下張卡牌 + 2戰鬥力。", [""], "./img/Forge.webp"),
+    createCard(2, 2, "炫音", "持續：我方每填滿一個區域，此卡牌+2戰鬥力。", [""], "./img/Dazzler.webp"),
+    createCard(2, 2, "鍛造者", "揭示：你打出的下張卡牌+2戰鬥力。", [""], "./img/Forge.webp"),
     createCard(2, 2, "呆頭鵝", "持續：雙方均不可將能量花費為4、5、6的卡牌放置在此牌所在區域。", [""], "./img/Goose.webp"),
-    createCard(2, 2, "生化女", "揭示：所有其他卡牌 - 1戰鬥力。", [""], "./img/Hazmat.webp"),
+    createCard(2, 2, "生化女", "揭示：所有其他卡牌-1戰鬥力。", [""], "./img/Hazmat.webp"),
     createCard(2, 2, "洛基", "揭示：將你的牌組替換成對方起始牌組，且能量花費-1。", [""], "./img/Loki.webp"),
     createCard(2, 2, "主體模組", "揭示：將2張哨兵機器人加入對方手牌。", [""], "./img/MasterMold.webp"),
+    createCard(2, 2, "美杜莎", "揭示：若此卡牌在中間區域，則+3戰鬥力。", [""], "./img/Medusa.webp"),
+    createCard(2, 2, "幻境", "揭示：複製對方手牌中能量花費最低的任1張卡牌，並放入我方手牌。使該牌+2戰鬥力。", [""], "./img/Mirage.webp"),
+    createCard(2, 2, "邪惡先生", "揭示：將1張戰鬥力相同的邪惡先生克隆體添加至此牌揭示區域。", [""], "./img/MrSinister.webp"),
+    createCard(2, 2, "莫卓", "持續：若雙方均將此牌所在區域填滿，則此牌+6戰鬥力。", [""], "./img/Mojo.webp"),
+    createCard(2, 2, "靈蝶", "揭示：下回合，你獲得+1能量。", [""], "./img/Psylocke.webp"),
+    createCard(2, 2, "拉芙娜．洛斯蕾爾", "持續：我方戰鬥力小於或等於1的所有卡牌能量花費-1（最低須為1）。", [""], "./img/RavonnaRenslayer.webp"),
+    createCard(2, 2, "毒蠍人", "揭示：對方手牌-1戰鬥力。", [""], "./img/Scorpion.webp"),
 
 
 
+    createCard(2, 2, "黑影王", "揭示：將此區域所有卡牌戰鬥力重置為原始戰鬥力。", [""], "./img/.webp"),
+    createCard(2, 2, "星爵", "揭示：若對方本回合在此牌揭示區域放置過卡牌，則此牌+4戰鬥力。", [""], "./img/.webp"),
+    createCard(2, 2, "收藏者", "每有1張卡牌加入至我方手牌（從牌組中加入除外），此牌就+1戰鬥力。", [""], "./img/.webp"),
+    createCard(2, 2, "白寡婦", "揭示：將1張寡婦之吻添加至敵方此區域。", [""], "./img/.webp"),
+    createCard(2, 2, "金剛狼", "此卡牌被丟棄或摧毀後，在隨機區域重生並+2戰鬥力。", [""], "./img/.webp"),
 
     // createCard(2, 3, "傑夫寶寶陸行鯊", "你可以移動此卡牌1次，不受任何限制地將此牌移動或放置到任何區域。", [""], "./img/JeffTheBabyLandShark.webp"),
 
